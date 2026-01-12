@@ -39,7 +39,7 @@ export function About() {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 mb-16">
           {features.map((feature, index) => (
             <div key={index} className="text-center group">
-              <div className="size-16 rounded-2xl bg-gradient-to-br from-primary/20 to-secondary/20 border-2 border-primary/30 flex items-center justify-center mx-auto mb-4 group-hover:scale-110 transition-transform">
+              <div className="size-16 rounded-2xl bg-gradient-to-br from-primary/30 to-secondary/30 border-2 border-primary/30 flex items-center justify-center mx-auto mb-4 group-hover:scale-110 transition-transform">
                 <feature.icon className="size-8 text-primary" />
               </div>
               <h3 className="mb-2">{feature.title}</h3>
@@ -48,7 +48,7 @@ export function About() {
           ))}
         </div>
 
-        <div className="bg-gradient-to-br from-primary/10 via-secondary/10 to-accent/20 rounded-3xl p-8 md:p-12 border-2 border-primary/20">
+        <div className="bg-gradient-to-br from-primary/20 via-secondary/20 to-accent/25 rounded-3xl p-8 md:p-12 border-2 border-primary/20">
           <div className="max-w-3xl mx-auto">
             <h3 className="text-2xl md:text-3xl mb-4 text-center">Our Journey 🚀</h3>
             <p className="text-muted-foreground mb-4">

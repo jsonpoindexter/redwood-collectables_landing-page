@@ -2,7 +2,7 @@ import { Mail, Phone, MapPin, Clock } from "lucide-react";
 
 export function Contact() {
   return (
-    <section id="contact" className="py-20 bg-gradient-to-br from-primary/5 via-secondary/5 to-accent/10">
+    <section id="contact" className="py-20 bg-gradient-to-br from-primary/10 via-secondary/10 to-accent/20">
       <div className="container mx-auto px-4">
         <div className="text-center mb-12">
           <h2 className="text-3xl md:text-5xl mb-4">
@@ -21,17 +21,19 @@ export function Contact() {
               </div>
               <div>
                 <h3 className="mb-1">Our Location</h3>
+                <a href={'https://maps.app.goo.gl/FRRiyhdzSx3ACPU37'} target={'_blank'}>
                 <p className="text-muted-foreground">
-                  123 Collector's Lane<br />
-                  Downtown District<br />
-                  City, State 12345
+                  1590 Nursery Way ste 2<br />
+                  McKinleyville, CA 95519
                 </p>
+                </a>
               </div>
             </div>
-            
+
             <div className="flex items-start gap-4 group">
-              <div className="size-12 rounded-xl bg-gradient-to-br from-primary/20 to-secondary/20 border-2 border-primary/30 flex items-center justify-center flex-shrink-0 group-hover:scale-110 transition-transform">
-                <Clock className="size-6 text-secondary" />
+              <div
+                className="size-12 rounded-xl bg-gradient-to-br from-primary/20 to-secondary/20 border-2 border-primary/30 flex items-center justify-center flex-shrink-0 group-hover:scale-110 transition-transform">
+                <Clock className="size-6 text-secondary"/>
               </div>
               <div>
                 <h3 className="mb-1">Store Hours</h3>

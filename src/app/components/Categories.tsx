@@ -34,7 +34,7 @@ const categories = [
 
 export function Categories() {
   return (
-    <section id="categories" className="py-20 bg-gradient-to-b from-background to-accent/10">
+    <section id="categories" className="py-20 bg-gradient-to-b from-background to-accent/20">
       <div className="container mx-auto px-4">
         <div className="text-center mb-12">
           <h2 className="text-3xl md:text-5xl mb-4">
