@@ -2,7 +2,7 @@ import { Mail, Phone, MapPin, Clock } from "lucide-react";
 
 export function Contact() {
   return (
-    <section id="contact" className="py-20 bg-gradient-to-br from-primary/10 via-secondary/10 to-accent/20">
+    <section id="contact" className="py-20 bg-primary/10">
       <div className="container mx-auto px-4">
         <div className="text-center mb-12">
           <h2 className="text-3xl md:text-5xl mb-4">
@@ -16,7 +16,7 @@ export function Contact() {
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 max-w-5xl mx-auto">
           <div className="space-y-6">
             <div className="flex items-start gap-4 group">
-              <div className="size-12 rounded-xl bg-gradient-to-br from-primary/20 to-secondary/20 border-2 border-primary/30 flex items-center justify-center flex-shrink-0 group-hover:scale-110 transition-transform">
+              <div className="size-12 rounded-xl bg-primary/20 border-2 border-primary/30 flex items-center justify-center flex-shrink-0 group-hover:scale-110 transition-transform">
                 <MapPin className="size-6 text-primary" />
               </div>
               <div>
@@ -32,7 +32,7 @@ export function Contact() {
 
             <div className="flex items-start gap-4 group">
               <div
-                className="size-12 rounded-xl bg-gradient-to-br from-primary/20 to-secondary/20 border-2 border-primary/30 flex items-center justify-center flex-shrink-0 group-hover:scale-110 transition-transform">
+                className="size-12 rounded-xl bg-secondary/20 border-2 border-primary/30 flex items-center justify-center flex-shrink-0 group-hover:scale-110 transition-transform">
                 <Clock className="size-6 text-secondary"/>
               </div>
               <div>
@@ -45,7 +45,7 @@ export function Contact() {
             </div>
             
             <div className="flex items-start gap-4 group">
-              <div className="size-12 rounded-xl bg-gradient-to-br from-primary/20 to-secondary/20 border-2 border-primary/30 flex items-center justify-center flex-shrink-0 group-hover:scale-110 transition-transform">
+              <div className="size-12 rounded-xl bg-primary/20 border-2 border-primary/30 flex items-center justify-center flex-shrink-0 group-hover:scale-110 transition-transform">
                 <Phone className="size-6 text-primary" />
               </div>
               <div>
@@ -55,7 +55,7 @@ export function Contact() {
             </div>
             
             <div className="flex items-start gap-4 group">
-              <div className="size-12 rounded-xl bg-gradient-to-br from-primary/20 to-secondary/20 border-2 border-primary/30 flex items-center justify-center flex-shrink-0 group-hover:scale-110 transition-transform">
+              <div className="size-12 rounded-xl bg-secondary/20 border-2 border-primary/30 flex items-center justify-center flex-shrink-0 group-hover:scale-110 transition-transform">
                 <Mail className="size-6 text-secondary" />
               </div>
               <div>
@@ -97,7 +97,7 @@ export function Contact() {
               </div>
               <button
                 type="submit"
-                className="w-full px-6 py-3 bg-gradient-to-r from-primary to-secondary text-white rounded-xl hover:shadow-xl transition-all transform hover:scale-105"
+                className="w-full px-6 py-3 bg-primary text-white rounded-xl hover:bg-primary/90 hover:shadow-xl transition-all transform hover:scale-105"
               >
                 Send Message 🚀
               </button>

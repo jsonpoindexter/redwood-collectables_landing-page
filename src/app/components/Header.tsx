@@ -7,10 +7,10 @@ export function Header() {
       <div className="container mx-auto px-4 flex h-16 items-center justify-between">
         <div className="flex items-center gap-8">
           <a href="/" className="flex items-center gap-2">
-            <div className="size-12 flex items-center justify-center p-1.5">
+            <div className="size-12 flex items-center justify-center rounded-xl bg-primary/10 p-1.5">
               <img src={logo} alt="Redwood Collectables logo" className="size-full object-contain" />
             </div>
-            <span className="font-semibold text-xl bg-gradient-to-r from-primary to-secondary bg-clip-text text-transparent">
+            <span className="font-semibold text-xl text-primary">
               Redwood Collectables
             </span>
           </a>
@@ -27,7 +27,7 @@ export function Header() {
           </nav>
         </div>
         <div className="flex items-center gap-4">
-          <a href="#contact" className="hidden md:block px-6 py-2 bg-gradient-to-r from-primary to-secondary text-white rounded-lg hover:shadow-lg transition-all">
+          <a href="#contact" className="hidden md:block px-6 py-2 bg-primary text-white rounded-lg hover:bg-primary/90 hover:shadow-lg transition-all">
             Visit Our Store
           </a>
           <button className="md:hidden p-2 hover:bg-muted rounded-lg transition-colors">

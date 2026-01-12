@@ -34,7 +34,7 @@ const categories = [
 
 export function Categories() {
   return (
-    <section id="categories" className="py-20 bg-gradient-to-b from-background to-accent/20">
+    <section id="categories" className="py-20 bg-secondary/10">
       <div className="container mx-auto px-4">
         <div className="text-center mb-12">
           <h2 className="text-3xl md:text-5xl mb-4">
@@ -57,10 +57,10 @@ export function Categories() {
                   alt={category.name}
                   className="size-full object-cover group-hover:scale-110 transition-transform duration-300"
                 />
-                <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/40 to-transparent" />
+                <div className="absolute inset-0 bg-black/60" />
               </div>
               <div className="absolute inset-0 p-6 flex flex-col justify-end">
-                <div className="size-12 rounded-xl bg-gradient-to-br from-primary to-secondary flex items-center justify-center mb-3 shadow-lg">
+                <div className="size-12 rounded-xl bg-secondary flex items-center justify-center mb-3 shadow-lg">
                   <category.icon className="size-6 text-white" />
                 </div>
                 <h3 className="text-white mb-1">{category.name}</h3>

@@ -3,15 +3,15 @@ import logo from "@/static/icons/logo-transparent.png";
 
 export function Footer() {
   return (
-    <footer className="bg-gradient-to-br from-primary/10 to-secondary/10 border-t-2 border-primary/20">
+    <footer className="bg-secondary/10 border-t-2 border-primary/20">
       <div className="container mx-auto px-4 py-12">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-8">
           <div>
             <div className="flex items-center gap-2 mb-4">
-              <div className="size-10 bg-gradient-to-br from-primary/20 via-secondary/20 to-accent/20 flex items-center justify-center shadow-lg p-1.5">
+              <div className="size-10 bg-primary/10 flex items-center justify-center shadow-lg p-1.5 rounded-xl">
                 <img src={logo} alt="Redwood Collectables logo" className="size-full object-contain" />
               </div>
-              <span className="font-semibold text-xl bg-gradient-to-r from-primary to-secondary bg-clip-text text-transparent">
+              <span className="font-semibold text-xl text-primary">
                 Redwood Collectables
               </span>
             </div>
@@ -35,13 +35,13 @@ export function Footer() {
               Follow us for updates on new arrivals, tournaments, and special events!
             </p>
             <div className="flex gap-3">
-              <a href="#" className="size-10 rounded-lg bg-gradient-to-br from-primary/20 to-secondary/20 border-2 border-primary/30 flex items-center justify-center hover:scale-110 transition-transform">
+              <a href="#" className="size-10 rounded-lg bg-secondary/20 border-2 border-primary/30 flex items-center justify-center hover:scale-110 transition-transform">
                 <span className="text-primary">📘</span>
               </a>
-              <a href="#" className="size-10 rounded-lg bg-gradient-to-br from-primary/20 to-secondary/20 border-2 border-primary/30 flex items-center justify-center hover:scale-110 transition-transform">
+              <a href="#" className="size-10 rounded-lg bg-secondary/20 border-2 border-primary/30 flex items-center justify-center hover:scale-110 transition-transform">
                 <span className="text-primary">🐦</span>
               </a>
-              <a href="#" className="size-10 rounded-lg bg-gradient-to-br from-primary/20 to-secondary/20 border-2 border-primary/30 flex items-center justify-center hover:scale-110 transition-transform">
+              <a href="#" className="size-10 rounded-lg bg-secondary/20 border-2 border-primary/30 flex items-center justify-center hover:scale-110 transition-transform">
                 <span className="text-primary">📷</span>
               </a>
             </div>

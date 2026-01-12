@@ -4,7 +4,7 @@ import logo from "@/static/icons/logo-transparent.png";
 
 export function Hero() {
   return (
-    <section className="relative bg-gradient-to-br from-primary/20 via-secondary/10 to-accent/25 overflow-hidden">
+    <section className="relative bg-primary/10 overflow-hidden">
       <div className="container mx-auto px-20 py-20 md:py-32 relative">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
           <div>
@@ -38,7 +38,7 @@ export function Hero() {
             <div className="flex flex-col sm:flex-row gap-4">
               <a
                 href="#contact"
-                className="px-8 py-3 bg-gradient-to-r from-primary to-secondary text-white rounded-xl hover:shadow-xl transition-all text-center transform hover:scale-105"
+                className="px-8 py-3 bg-primary text-white rounded-xl hover:bg-primary/90 hover:shadow-xl transition-all text-center transform hover:scale-105"
               >
                 Get Directions
               </a>
