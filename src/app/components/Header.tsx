@@ -7,7 +7,7 @@ export function Header() {
       <div className="container mx-auto px-4 flex h-16 items-center justify-between">
         <div className="flex items-center gap-8">
           <a href="/" className="flex items-center gap-2">
-            <div className="size-10 bg-gradient-to-br from-primary/20 via-secondary/20 to-accent/20 flex items-center justify-center shadow-lg p-1.5">
+            <div className="size-12 flex items-center justify-center p-1.5">
               <img src={logo} alt="Redwood Collectables logo" className="size-full object-contain" />
             </div>
             <span className="font-semibold text-xl bg-gradient-to-r from-primary to-secondary bg-clip-text text-transparent">

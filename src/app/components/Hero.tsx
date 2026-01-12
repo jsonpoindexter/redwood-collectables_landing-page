@@ -1,23 +1,23 @@
 import {MapPin, Clock} from "lucide-react";
 import {ImageWithFallback} from "./figma/ImageWithFallback";
+import logo from "@/static/icons/logo-transparent.png";
 
 export function Hero() {
   return (
     <section className="relative bg-gradient-to-br from-primary/20 via-secondary/10 to-accent/25 overflow-hidden">
-      <div className="container mx-auto px-4 py-20 md:py-32 relative">
+      <div className="container mx-auto px-20 py-20 md:py-32 relative">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
           <div>
-            <h1 className="text-4xl md:text-6xl mb-6">
-              Gotta Collect 'Em All at{" "}
-              <span className="bg-gradient-to-r from-primary to-secondary bg-clip-text text-transparent">
-                Redwood Collectables!
-              </span>
-            </h1>
+            <div className="mb-6">
+              <img
+                src={logo}
+                alt="Redwood Collectables"
+                className="w-full max-w-md md:max-w-lg"
+              />
+            </div>
             <p className="text-lg text-muted-foreground mb-8 max-w-lg">
-              Your ultimate destination for Pokémon cards,
-              trading card games, and all things collectible.
-              Join our community of passionate trainers and
-              collectors!
+              Your ultimate destination for Pokémon cards, trading card games, and all things collectible.
+              Join our community of passionate trainers and collectors!
             </p>
             <div className="space-y-4 mb-8">
               <div className="flex items-center gap-3 text-muted-foreground">
@@ -50,7 +50,7 @@ export function Hero() {
               </a>
             </div>
           </div>
-          <div className="relative">
+          <div className="relative pt-5 ">
             <div
               className="aspect-square rounded-3xl overflow-hidden shadow-2xl border-4 border-white transform hover:rotate-2 transition-transform">
               <ImageWithFallback
