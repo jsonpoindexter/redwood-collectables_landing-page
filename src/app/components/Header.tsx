@@ -1,4 +1,5 @@
 import { Menu } from "lucide-react";
+import logo from "@/static/icons/logo-transparent.png";
 
 export function Header() {
   return (
@@ -6,8 +7,8 @@ export function Header() {
       <div className="container mx-auto px-4 flex h-16 items-center justify-between">
         <div className="flex items-center gap-8">
           <a href="/" className="flex items-center gap-2">
-            <div className="size-10 rounded-xl bg-gradient-to-br from-primary via-secondary to-primary flex items-center justify-center shadow-lg">
-              <span className="text-2xl">⚡</span>
+            <div className="size-10 bg-gradient-to-br from-primary/20 via-secondary/20 to-accent/20 flex items-center justify-center shadow-lg p-1.5">
+              <img src={logo} alt="Redwood Collectables logo" className="size-full object-contain" />
             </div>
             <span className="font-semibold text-xl bg-gradient-to-r from-primary to-secondary bg-clip-text text-transparent">
               Redwood Collectables
