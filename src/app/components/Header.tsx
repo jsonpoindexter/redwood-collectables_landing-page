@@ -6,7 +6,7 @@ export function Header() {
     <header className="sticky top-0 z-50 w-full border-b bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
       <div className="container mx-auto px-4 flex h-16 items-center justify-between">
         <div className="flex items-center gap-8">
-          <a href="/" className="flex items-center gap-2">
+          <a href="#top" className="flex items-center gap-2">
             <div className="size-12 flex items-center justify-center rounded-xl bg-primary/10 p-1.5">
               <img src={logo} alt="Redwood Collectables logo" className="size-full object-contain" />
             </div>

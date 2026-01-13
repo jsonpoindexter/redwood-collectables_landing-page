@@ -7,7 +7,7 @@ import { Contact } from "./components/Contact";
 
 export default function App() {
   return (
-    <div className="min-h-screen flex flex-col scroll-smooth">
+    <div id="top" className="min-h-screen flex flex-col scroll-smooth">
       <Header />
       <main className="flex-1">
         <Hero />
