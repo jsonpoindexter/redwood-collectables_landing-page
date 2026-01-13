@@ -10,8 +10,8 @@ export function Header() {
             <div className="size-12 flex items-center justify-center rounded-xl bg-primary/10 p-1.5">
               <img src={logo} alt="Redwood Collectables logo" className="size-full object-contain" />
             </div>
-            <span className="font-semibold text-xl text-primary">
-              Redwood Collectables
+            <span className="font-logo font-semibold text-xl">
+              <span className={'text-primary'}>Redwood</span> <span className={'text-secondary'}>Collectables</span>
             </span>
           </a>
           <nav className="hidden md:flex items-center gap-6">

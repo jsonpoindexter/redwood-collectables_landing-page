@@ -11,7 +11,7 @@ export function Footer() {
               <div className="size-10 bg-primary/10 flex items-center justify-center shadow-lg p-1.5 rounded-xl">
                 <img src={logo} alt="Redwood Collectables logo" className="size-full object-contain" />
               </div>
-              <span className="font-semibold text-xl text-primary">
+              <span className="font-logo font-semibold text-xl text-primary">
                 Redwood Collectables
               </span>
             </div>
